@@ -72,7 +72,7 @@ export default function MobileMenu() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <ul className="flex flex-end  w-full justify-end gap-3">
+          <ul className="flex flex-col justify-center  w-full  items-center gap-3">
               <Sosmed/>
               <li>
                 <a href="mailto:muhamadalifanwar@gmail.com">
