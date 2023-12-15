@@ -31,6 +31,14 @@ export default function MobileMenu() {
     return () => document.removeEventListener('keydown', keyHandler)
   })
 
+  const handleDownload = () => {
+    const filePath ="/pdf/muhamadalifanwar-resume.pdf" // Sesuaikan dengan path file Anda
+    const downloadLink = document.createElement('a');
+    downloadLink.href = filePath;
+    downloadLink.download = 'muhamadalifanwar-resume.pdf'; // Nama file yang akan diunduh
+    downloadLink.click();
+  };
+
   return (
     <div className="flex md:hidden">
       {/* Hamburger button */}
@@ -63,17 +71,23 @@ export default function MobileMenu() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <ul className="px-5 py-2">
-            <li>
-              <Link href="/signin" className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>Contact Me</Link>
-            </li>
-            <li>
-              <Link href="/signup" className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2" onClick={() => setMobileNavOpen(false)}>
-                <span>Download CV</span>     
-                <img className='w-3 h-3 shrink-0 ml-2 -mr-1' src="https://img.icons8.com/metro/26/FFFFFF/download.png" alt="download"/>
-              </Link>
-            </li>
-          </ul>          
+          <ul className="flex flex-end  w-full justify-end gap-3">
+              <Sosmed/>
+              <li>
+                <a href="mailto:muhamadalifanwar@gmail.com">
+                  <button className='btn btn-outline ' >Contact me</button>
+                </a>
+              </li>
+              <li className='flex' >
+                {/* <a href="/pdf/3.pdf" download="3.pdf">Download CV</a> */}
+                  <button className='btn ' onClick={handleDownload}>
+                    Download CV
+                    <span>
+                      <img className='w-3 h-3 shrink-0 ml-2 -mr-1' src="https://img.icons8.com/metro/26/FFFFFF/download.png" alt="download"/>
+                    </span>
+                  </button>     
+              </li>
+            </ul>         
         </Transition>
       </div>
     </div>
