@@ -122,7 +122,7 @@ export default function Experience() {
                 </dialog>
                 {/* -4x- */}
             </div>
-            <a href="https://www.linkedin.com/in/muhamad-alif-anwar/">
+            <a href="https://www.linkedin.com/in/muhamad-alif-anwar/" target="_blank">
                 <span className=" mt-5 inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-base font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
                 📌 Likedin
                 </span>
