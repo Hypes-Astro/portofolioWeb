@@ -17,10 +17,10 @@ export default function Header() {
   } 
   
   const handleDownload = () => {
-    const filePath ="/pdf/3.pdf" // Sesuaikan dengan path file Anda
+    const filePath ="/pdf/muhamadalifanwar-resume.pdf" // Sesuaikan dengan path file Anda
     const downloadLink = document.createElement('a');
     downloadLink.href = filePath;
-    downloadLink.download = '3.pdf'; // Nama file yang akan diunduh
+    downloadLink.download = 'muhamadalifanwar-resume.pdf'; // Nama file yang akan diunduh
     downloadLink.click();
   };
 
