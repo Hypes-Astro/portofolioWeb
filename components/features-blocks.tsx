@@ -12,9 +12,9 @@ export default function FeaturesBlocks() {
         <div className="py-12 md:py-20 ">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Skills</h2>
-            <p className="text-xl text-gray-600 mb-5">I excel in delivering innovative and impactful problem-solving.</p>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20 md:mt-16 " >
+            <h2 className="h2 mt-12">Skills</h2>
+            <p className="text-xl text-gray-600 mb-5 sm:mt-14 ">I excel in delivering innovative and impactful problem-solving.</p>
           </div>
 
           {/* Items */}

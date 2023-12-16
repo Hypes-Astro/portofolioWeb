@@ -64,7 +64,7 @@ export default function Experience() {
                 <button
                     data-aos="fade-up"
                     onClick={openModal2}
-                    className="bg-yellow-100  btn btn-outline hover: select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    className="bg-yellow-100  btn btn-outline hover:select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     >
                     Web programming assistant lecturer
@@ -83,7 +83,7 @@ export default function Experience() {
                 <button  
                     data-aos="fade-left"
                     onClick={openModal3}
-                    className="btn bg-blue-100 btn-outline hover: select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    className="btn bg-blue-100 btn-outline hover:select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     >
                     Dinus Open Source Community programming division
@@ -104,7 +104,7 @@ export default function Experience() {
                 <button 
                     data-aos="fade-left"
                     onClick={openModal4}
-                    className="btn  bg-green-100 btn-outline hover: select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    className="btn  bg-green-100 btn-outline hover:select-none rounded-lg border border-gray-900 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-gray-900 transition-all hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     >
                     Internship Bengkel Koding

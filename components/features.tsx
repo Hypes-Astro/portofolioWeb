@@ -3,6 +3,8 @@ import FotoImage1 from '@/public/images/Bengkod.png'
 import FotoImage2 from '@/public/images/Alkahfi.png'
 import FotoImage3 from '@/public/images/Kerjain.png'
 import FotoImage4 from '@/public/images/KabarinApp.png'
+import FotoImage5 from '@/public/images/perpusAPI.png'
+import FotoImage6 from '@/public/images/portoin.png'
 
 import Image from 'next/image'
 import FeaturesBlocks from './features-blocks'
@@ -51,6 +53,7 @@ export default function Features() {
 
               {/* konten */}
               <section className='gap-3 grid grid-cols-1  md:grid-cols-3 p-5 shadow-xl rounded-lg h-full'>
+                
                 {/* 1 */}
                 <div className="box1"  >
                   <div className="collapse bg-base-200">
@@ -63,16 +66,18 @@ export default function Features() {
                       <h1 className='font-semibold mb-5 text-lg '>LMS Bengkel Koding</h1>
                       <Image src={FotoImage1} alt=""  />
                     </label>
-                    <div className="collapse-content bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
+                    <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
                       {/* Konten */}
                       <p className='font-semibold'>Role : Front End</p>
                       <p>Education platform has reached over 200 students at UDINUS.</p>
-                      <div className="tech flex gap-3 mt-2">
-                        <div className="badge badge-ghost text-white">Laravel</div>
-                        <div className="badge badge-error text-white ">Blade</div>
-                        <div className="badge badge-primary text-white">Tailwind</div>
-                        <div className="badge badge-warning">Javascript</div>
+                      <div className="tech flex gap-3 mt-2 flex-wrap">
+                        <div className="badge p-3 badge-ghost text-white">Laravel</div>
+                        <div className="badge badge-error text-white p-3">Blade</div>
+                        <div className="badge badge-primary text-white p-3">Tailwind</div>
+                        <div className="badge badge-warning p-3">Javascript</div>
+                        <div className="badge badge-success text-white p-3">Mysql</div>
                       </div>
+                      <a href="https://github.com/Hypes-Astro/Kabarin-JuaraAndroid" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
  
                     </div>
                   </div>
@@ -87,19 +92,20 @@ export default function Features() {
                       className="collapse-title bg-gray-200 hover:bg-slate-200 text-primary-content  peer-checked:bg-slate-200  peer-checked:text-secondary-content"
                     >
                       
-                      <h1 className='font-semibold mb-5 text-lg'>Muslim Center</h1>
+                      <h1 className='font-semibold mb-5 text-lg'>Alkahfi Muslim Center</h1>
                       <Image src={FotoImage2} alt=""  />
                     </label>
-                    <div className="collapse-content bg-gray-200 hover:bg-slate-200 text-primary-content  peer-checked:bg-slate-200  peer-checked:text-secondary-content">
+                    <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
                       {/* Konten */}
                       <p className='font-semibold'>Role : Full Developer</p>
                       <p>Implementing APIs for Prayer Schedule, Hadith, and Short Prayers at the Muslim Center Al Kahfi </p>
-                      <div className="tech flex gap-3 mt-2">
-                        <div className="badge badge-ghost text-white">React JS</div>
-                        <div className="badge badge-error text-white ">API</div>
-                        <div className="badge badge-primary text-white">Tailwind</div>
-                        <div className="badge badge-warning">Javascript</div>
+                      <div className="tech flex gap-3 mt-2 flex-wrap">
+                        <div className="badge p-3 badge-ghost text-white">React JS</div>
+                        <div className="badge badge-error text-white p-3">API</div>
+                        <div className="badge badge-primary text-white p-3">Tailwind</div>
+                        <div className="badge badge-warning p-3">Javascript</div>
                       </div>
+                      <a href="https://github.com/Hypes-Astro/Alkahfi-web-platform" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
                       
                     </div>
                   </div>  
@@ -117,15 +123,16 @@ export default function Features() {
                       <h1 className='font-semibold mb-5 text-lg'>kerjain ToDo</h1>
                       <Image src={FotoImage3} alt=""  />
                     </label>
-                    <div className="collapse-content bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200  peer-checked:text-secondary-content">
+                    <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
                       {/* Konten */}
                       <p className='font-semibold'>Role : Full Developer</p>
                       <p>Working on a React JS CRUD project to manage activities with state</p>
-                      <div className="tech flex gap-3 mt-2">
-                        <div className="badge badge-ghost text-white">React</div>
-                        <div className="badge badge-primary text-white">Tailwind</div>
-                        <div className="badge badge-warning">Javascript</div>
+                      <div className="tech flex gap-3 mt-2 flex-wrap">
+                        <div className="badge p-3 badge-ghost text-white">React</div>
+                        <div className="badge badge-primary text-white p-3">Tailwind</div>
+                        <div className="badge badge-warning p-3">Javascript</div>
                       </div>
+                      <a href="https://github.com/Hypes-Astro/Kerja.in" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
                       
                     </div>
                   </div>  
@@ -143,15 +150,16 @@ export default function Features() {
                       <h1 className='font-semibold mb-5 text-lg'>Kabarin: News App</h1>
                       <Image src={FotoImage4} alt=""  />
                     </label>
-                    <div className="collapse-content bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
+                    <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
                       {/* Konten */}
                       <p className='font-semibold'>Role : Full Developer</p>
                       <p>This project will likely enhance the user experience by integrating real-time news updates</p>
-                      <div className="tech flex gap-3 mt-2">
-                        <div className="badge badge-ghost text-white">Jetpack Compose</div>
-                        <div className="badge badge-primary text-white">Kotlin</div>
-                        <div className="badge badge-warning">API</div>
+                      <div className="tech flex gap-3 mt-2 flex-wrap">
+                        <div className="badge p-3 badge-ghost text-white">Jetpack Compose</div>
+                        <div className="badge badge-primary text-white p-3">Kotlin</div>
+                        <div className="badge badge-warning p-3">API</div>
                       </div>
+                      <a href="https://github.com/Hypes-Astro/Kabarin-JuaraAndroid" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
                     </div>
                   </div>  
                 </div>
@@ -165,13 +173,48 @@ export default function Features() {
                       className="collapse-title bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content"
                     >
                       
-                      <h1 className='font-semibold mb-5 text-lg'>Muslim Center</h1>
-                      <Image src={FotoImage2} alt=""  />
+                      <h1 className='font-semibold mb-5 text-lg'>API Perpusatakaan</h1>
+                      <div className="flex items-center w-full">
+                        <Image src={FotoImage5} alt="" className='w-ob ' />
+                      </div>
                     </label>
-                    <div className="collapse-content bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
-                      {/* Konten */}
-                      <p>Hello, this is the hidden content!</p>
+                      <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
+                        <p className='font-semibold'>Role : Full Developer</p>
+                        <p>Make API environment for CRUD </p>
+                        <div className="tech flex gap-3 mt-2 flex-wrap">
+                          <div className="badge p-3 badge-ghost text-white">Node JS</div>
+                          <div className="badge badge-error text-white p-3">API</div>
+                          <div className="badge badge-warning p-3">Javascript</div>
+                        </div>
+                        <a href="https://github.com/Hypes-Astro/perpusApi" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                    </div>
+                  </div>  
+                </div>
+
+                {/* 6 */}
+                <div className="box6">
+                  <div className="collapse bg-base-200">
+                    <input type="checkbox" id="toggleCollapse6" className="peer" />
+                    <label
+                      htmlFor="toggleCollapse6"
+                      className="collapse-title bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content"
+                    >
                       
+                      <h1 className='font-semibold mb-5 text-lg'>Portoin  alifanwarpage.vercel.app</h1>
+                      <div className="flex items-center w-full">
+                        <Image src={FotoImage6} alt="" className='w-ob ' />
+                      </div>
+                    </label>
+                      <div className="collapse-content flex flex-col gap-3 bg-gray-200 hover:bg-slate-200 text-primary-content peer-checked:bg-slate-200 peer-checked:text-secondary-content">
+                        <p className='font-semibold'>Role : Full Developer</p>
+                        <p>Make a simple portofolio page with framework NextJs</p>
+                        <div className="tech flex gap-3 mt-2 flex-wrap">
+                          <div className="badge p-3 badge-ghost text-white">Next JS</div>
+                          <div className="badge badge-primary text-white p-3">React</div>
+                          <div className="badge badge-error text-white p-3">Typescript</div>
+                          <div className="badge badge-warning p-3">Tailwind css</div>
+                        </div>
+                        <a href="https://github.com/Hypes-Astro/portofolioWeb" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
                     </div>
                   </div>  
                 </div>
