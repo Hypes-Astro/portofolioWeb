@@ -77,7 +77,7 @@ export default function Features() {
                         <div className="badge badge-warning p-3">Javascript</div>
                         <div className="badge badge-success text-white p-3">Mysql</div>
                       </div>
-                      <a href="https://github.com/Hypes-Astro/Kabarin-JuaraAndroid" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                      <a href="https://github.com/bengkelkoding/bengkod-web-laravel9" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
  
                     </div>
                   </div>
