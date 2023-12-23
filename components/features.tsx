@@ -6,6 +6,8 @@ import FotoImage4 from '@/public/images/KabarinApp.png'
 import FotoImage5 from '@/public/images/perpusAPI.png'
 import FotoImage6 from '@/public/images/portoin.png'
 
+import { Icon } from '@iconify/react';
+
 import Image from 'next/image'
 import FeaturesBlocks from './features-blocks'
 import Experience from './experience'
@@ -77,7 +79,13 @@ export default function Features() {
                         <div className="badge badge-warning p-3">Javascript</div>
                         <div className="badge badge-success text-white p-3">Mysql</div>
                       </div>
-                      <a href="https://github.com/bengkelkoding/bengkod-web-laravel9" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                      <div className="linkTo w-full flex  items-center gap-3 ">
+                        <a href="https://github.com/bengkelkoding/bengkod-web-laravel9" className="w-full bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                        <a href="https://bengkelkoding.dinus.ac.id/"
+                           className="w-1/4 items-center justify-center flex bg-from-blue-500 rounded-full  p-2 text-center mt-2 hover:btn-ghost " target='_blank'>
+                          <Icon icon="ph:share" className='w-1/2 h-6' />
+                        </a>
+                      </div>
  
                     </div>
                   </div>
@@ -105,8 +113,13 @@ export default function Features() {
                         <div className="badge badge-primary text-white p-3">Tailwind</div>
                         <div className="badge badge-warning p-3">Javascript</div>
                       </div>
-                      <a href="https://github.com/Hypes-Astro/Alkahfi-web-platform" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
-                      
+                      <div className="linkTo w-full flex  items-center gap-3 ">
+                        <a href="https://github.com/Hypes-Astro/Alkahfi-web-platform" className="w-full bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                        <a href="https://alkahfimuslimcenter.vercel.app/"
+                           className="w-1/4 items-center justify-center flex bg-from-blue-500 rounded-full  p-2 text-center mt-2 hover:btn-ghost " target='_blank'>
+                          <Icon icon="ph:share" className='w-1/2 h-6' />
+                        </a>
+                      </div>                      
                     </div>
                   </div>  
                 </div>
@@ -132,8 +145,13 @@ export default function Features() {
                         <div className="badge badge-primary text-white p-3">Tailwind</div>
                         <div className="badge badge-warning p-3">Javascript</div>
                       </div>
-                      <a href="https://github.com/Hypes-Astro/Kerja.in" className="bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
-                      
+                      <div className="linkTo w-full flex  items-center gap-3 ">
+                        <a href="https://github.com/Hypes-Astro/Kerja.in" className="w-full bg-from-blue-500 rounded-full outline p-2 text-center mt-2 hover:btn-ghost " target='_blank'>More Info!</a>
+                        <a href="https://kerjain.vercel.app/"
+                           className="w-1/4 items-center justify-center flex bg-from-blue-500 rounded-full  p-2 text-center mt-2 hover:btn-ghost " target='_blank'>
+                          <Icon icon="ph:share" className='w-1/2 h-6' />
+                        </a>
+                      </div>  
                     </div>
                   </div>  
                 </div>
